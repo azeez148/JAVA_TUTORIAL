@@ -1,6 +1,5 @@
 package StringFunctions;
 
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
