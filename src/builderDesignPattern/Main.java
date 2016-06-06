@@ -2,6 +2,16 @@ package builderDesignPattern;
 
 public class Main {
 
+	
+	/**
+	 * The builder pattern, as name implies, is an alternative way to construct complex objects. 
+	 * This should be used only when you want to build different 
+	 * immutable objects using same object building process
+	 * 
+	 * 
+	 * @param args
+	 */
+	
 	public static void main(String[] args) {
 	    User user1 = new User.UserBuilder("Lokesh", "Gupta")
 	    .age(30)
