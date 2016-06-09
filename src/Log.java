@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 
-public class ddfhg {
+public class Log {
 
 	public static void main(String[] args) {  
 
