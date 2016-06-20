@@ -53,7 +53,9 @@ public class CollectionExample {
 		
 		Set<Integer> iterator2 = map.keySet();
 		
-		
+		Map<Employee,Integer> map2 = new HashMap<>();
+		map2.put(new Employee(1, 10, "s"), 1);
+		map2.put(new Employee(1, 10, "s"), 1);
 	}
 
 }

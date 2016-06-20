@@ -20,6 +20,25 @@ public class Employee {
 
 
 	/**
+	 * @param anObject
+	 * @return
+	 * @see java.lang.String#equals(java.lang.Object)
+	 */
+	public boolean equals(Object anObject) {
+		return empName.equals(anObject);
+	}
+
+
+	/**
+	 * @return
+	 * @see java.lang.String#hashCode()
+	 */
+	public int hashCode() {
+		return empName.hashCode();
+	}
+
+
+	/**
 	 * @return the employeeID
 	 */
 	public int getEmployeeID() {

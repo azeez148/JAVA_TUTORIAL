@@ -1,5 +1,6 @@
 package StringFunctions;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,7 +21,7 @@ public class RegexExample {
 		//String regex = "\\s+";
 		//String regex = ".*true.*";
 		//String regex = "\\w+";
-		String input = "_srigisiv@gmail.co";
+		String input = "_srigisi v@gmail .co";
 /*		String regex= "^[A-Za-z0-9-_\\+]+(\\.[_A-Za-z0-9-]+)*@"
 	        + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 		*/
@@ -37,7 +38,7 @@ public class RegexExample {
 		Pattern p = Pattern.compile(regex);
 		Matcher m = p.matcher(input);
 		System.out.println("Matcher()" + m.matches());
-		System.out.println(input.split("").length);
+		System.out.println(Arrays.asList(input.split("\\s")));
 	    while (m.find()) {
 	        System.out.print("Start index: " + m.start());
 	        System.out.print(" End index: " + m.end() + " ");
